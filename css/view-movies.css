@@ -28,6 +28,14 @@ header{
    
     background-color:#0a0f12;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    margin-top: 0 auto;
+       
+    
 }
 .navbar-light .navbar-nav .nav-link {
     color:#6ecffd !important;
@@ -84,6 +92,7 @@ float: left;
 .element{
     background-color: #04090d;
     padding:80px;
+    margin-top: 60px;
 }
 /*---------- Custom select Owl carosel------*/
 .custom-select{

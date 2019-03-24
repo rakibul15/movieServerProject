@@ -16,6 +16,9 @@ h2{
     color : #fff !important;
     font-size: 25px !important;
 }
+h3{
+    color : #fff !important;
+}
 
 
 .button{
@@ -297,6 +300,7 @@ a{
     background-color: #04090d;
 }
 .video-player{
+    margin-top: 30px;
     padding: 60px;
 }
 .player-background{
