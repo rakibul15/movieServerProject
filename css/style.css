@@ -292,6 +292,20 @@ a{
 	right: 0;
 
 }
+.relate{
+    padding:30px;
+    background-color: #04090d;
+}
+.video-player{
+    padding: 60px;
+}
+.player-background{
+    background-color:#04090d;
+}
+.movie-details{
+    background-color: #0a0f13;
+    padding: 40px;
+}
 
 /*----------------------------FOOTER----------------*/
 footer{
@@ -325,13 +339,13 @@ footer a{
     h2{
         font-size: 15px !important;
     }
+    body h3{
+        font-size: 15px !important;
+    }
     p{
         font-size: 12px !important;
     }
-    .fa, .fas {
-        font-weight: 900;
-        font-size: 12px;
-    }
+
     .our-nav {
         position: absolute;
         top: 0px;
@@ -364,13 +378,13 @@ footer a{
         body h2{
             font-size: 15px !important;
         }
+        body h3{
+            font-size: 15px !important;
+        }
          body p{
             font-size: 12px !important;
         }
-        .fa, .fas {
-            font-weight: 900;
-            font-size: 12px;
-        }
+    
         .our-nav {
             position: absolute;
             top: 0px;
@@ -393,6 +407,7 @@ footer a{
             padding-bottom: 0px;
         }
     }
+
     
     
     /* iPads (portrait and landscape) ----------- */
@@ -457,20 +472,20 @@ footer a{
     }
     
     /* iPhone 6+, 7+, 8+ ----------- */
-    @media only screen and (min-device-width: 481px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    @media only screen and (min-device-width: 481px) and (max-device-height: 736px){
        h1{
             font-size: 18px !important;
         }
        h2{
             font-size: 15px !important;
         }
+        body h3{
+            font-size: 15px !important;
+        }
        p{
             font-size: 12px !important;
         }
-        .fa, .fas {
-            font-weight: 900;
-            font-size: 12px;
-        }
+    
         .our-nav {
             position: absolute;
             top: 0px;

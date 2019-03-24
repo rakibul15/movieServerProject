@@ -23,7 +23,7 @@
                         <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i>HOME</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span><i class="fas fa-bars"></i></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ml-auto d-flex align-items-center">
@@ -69,18 +69,18 @@
     <section class=" element">
         <div class="container">
             <form action="">
-                <div class="row justify-content-md-center text-center">
+                <div class="row justify-content-center">
                     <div class="col-sm-9">
                             <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Search Movies, TV, Anime, Software" name="search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input type="text" class="form-control" placeholder="Search Movies, TV, Anime, Software" name="search" aria-label="" aria-describedby="">
                                     <div class="input-group-append">
                                       <button class="btn btn-primary" type="submit">Search</button>
                                     </div>
                                   </div>
                     </div>
                 </div>
-                <div class="row justify-content-md-center text-center">
-                    <div class="col-sm-3">
+                <div class="row justify-content-center">
+                    <div class="col-sm-3 space">
                         <label class="name" for="inlineFormCustomSelect">Catagory</label>
                         <select name="Catagory" class="custom-select" id="inlineFormCustomSelect">
                             <option value="selected">HINDI</option>
@@ -90,7 +90,7 @@
                             <option value="OTHERS">OTHERS</option>
                         </select>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 space">
                             <label class="name" for="inlineFormCustomSelect">Genre</label>
                         <select  name="Genre" class="custom-select" id="inlineFormCustomSelect">
                                 <option value="all">All</option>
@@ -122,7 +122,7 @@
                                 <option value="western">Western</option>
                                 </select>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 space">
                             <label class="name" for="inlineFormCustomSelect">Rating</label>
                             <select name="rating"  class="custom-select" id="inlineFormCustomSelect">
                                     <option value="0">All</option>
@@ -137,7 +137,7 @@
                                     <option value="1">1+</option>
                                     </select>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 space">
                             <label class="name" for="inlineFormCustomSelect">Order By</label>
                             <select name="Orderby"  class="custom-select" id="inlineFormCustomSelect">
                                     <option value="latest">Latest</option>
@@ -246,7 +246,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-sm-12">
-                    <nav aria-label="Page navigation example">
+                    <nav aria-label="Page navigation example justify-content-center">
                         <ul class="pagination">
                           <li class="page-item">
                             <a class="page-link" href="#" aria-label="Previous">
@@ -268,27 +268,34 @@
             </div>
         </div>
 
-        <footer>
-                <div class="container">
-                    <div class="row d-flex align-items-center ">
-                        <div class="col col-sm-4">
-                            <p>Powerd By Cybersolutionsbd. <br> All right reserved 2019</p>
-                        </div>
-                        <div class="col col-sm-2">
-                            <p><i class="fas fa-phone fa-rotate-90"></i>016 1285 9201</p>
-                        </div>
-                        <div class="col col-sm-3">
-                            <P><i class="fas fa-envelope"></i> &nbsp;Cybersoltionsbd@live.com</P>
-                        </div>
-                        <div class="col col-sm-2">
-                           <p> <i class="fab fa-facebook"></i> &nbsp; Facebook</p>
-                        </div>
-                        <div class="col col-sm-1">
-                            <p><i class="fab fa-twitter"></i>twitter</p>
-                        </div>
-                    </div>
+         <!----------------------------------FOOTER------------------------>
+    <footer class="">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-12 col-md-3">
+                    <p>Powerd By Cybersolutionsbd. <br> All right reserved 2019</p>
                 </div>
-            </footer>
+                <div class="col-sm-6 col-md-2">
+                    <p><i class="fas fa-phone fa-rotate-90"></i>016 1285 9201</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a href="https://mail.google.com/mail/u/0/#inbox">
+                        <p><i class="fas fa-envelope"></i> Cybersoltionsbd@live.com</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <a href="https://www.facebook.com/">
+                      <p> <i class="fab fa-facebook"></i> Facebook</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <a href="https://twitter.com/login?lang=en">
+                        <p><i class="fab fa-twitter"></i> twitter</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

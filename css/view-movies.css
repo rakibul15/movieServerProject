@@ -37,7 +37,9 @@ header{
 
 }
 
-
+.fa-bars{
+    color:#6ecffd;
+}
 .nav-link{
     color : #fff;
 }
@@ -154,7 +156,7 @@ a{
     border: 1px solid dodgerblue;
       color: #048CC4 !;
   }
- -------------------------FOOTER----------------*/
+ 
 footer{
     background-color: #0b1014;
     padding: 40px 0px 40px 0px;
@@ -173,3 +175,98 @@ footer p:hover{
 footer a{
     text-decoration: none !important;
 }
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+     h1{
+        font-size: 18px !important;
+    }
+h2{
+        font-size: 15px !important;
+    }
+     p{
+        font-size: 12px !important;
+    }
+    .custom-select a{
+        font-size: 12px !important;
+    }
+    .form-control{
+        font-size: 12px !important;
+    }
+    footer{
+        font-size: 12px !important;
+    }
+    .btn{
+        font-size: 12px !important;
+    }
+    .page-item{
+        font-size: 12px !important;
+    }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h1{
+        font-size: 18px !important;
+    }
+    h2{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 12px !important;
+    }
+    .custom-select {
+        font-size: 12px !important;
+    }
+    .form-control{
+        font-size: 12px !important;
+    }
+    footer{
+        font-size: 12px !important;
+    }
+    .btn{
+        font-size: 12px !important;
+    }
+    .page-item{
+        font-size: 12px !important;
+    }
+    
+
+}
+    
+
+@media only screen and (min-device-width: 481px) and (max-device-height: 736px) {
+    h1{
+         font-size: 18px !important;
+     }
+    h2{
+         font-size: 15px !important;
+     }
+    p{
+         font-size: 12px !important;
+     }
+     .custom-select {
+        font-size: 12px !important;
+    }
+    .form-control{
+        font-size: 12px !important;
+    }
+    footer{
+        font-size: 12px !important;
+    }
+    .btn{
+        font-size: 12px !important;
+    }
+    .page-item{
+        font-size: 12px !important;
+    }
+    
+ }
+
+ @media only screen and (min-device-width: 572px) and (max-device-height: 736px) {
+    .space{
+        padding: 0px !important;
+        margin-left: 3px !important;
+    }
+ }
